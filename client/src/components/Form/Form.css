@@ -1,0 +1,21 @@
+.paper {
+    padding: 16px;
+  }
+  
+  /* form */
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* fileInput */
+  .fileInput {
+    width: 97%;
+    margin: 10px 0;
+  }
+  
+  /* buttonSubmit */
+  .buttonSubmit {
+    margin-bottom: 10px;
+  }

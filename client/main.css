@@ -1,0 +1,11 @@
+.background{
+    background: 
+      linear-gradient(145deg,#adafff 10%,#474bff 10.5% 19%,#0000 19.5% 80.5%,#474bff 81% 89.5%,#fff 90%), 
+      linear-gradient(145deg,#adafff 10%,#474bff 10.5% 19%,#0000 19.5% 80.5%,#474bff 81% 89.5%,#fff 90%) calc(32px) 64px,
+      linear-gradient(35deg,#adafff 10%,#474bff 10.5% 19%,#0000 19.5% 80.5%,#474bff 81% 89.5%,#fff 90%), 
+      linear-gradient( 35deg,#adafff 10%,#474bff 10.5% 19%,#0000 19.5% 80.5%,#474bff 81% 89.5%,#fff 90%) calc(32px) 64px,
+      conic-gradient(from -90deg at 37.5% 50%,#0000 75%,#adafff 0) calc(32px/4) 0,
+      conic-gradient(from -90deg at 37.5% 50%,#0000 75%,#fff 0) calc(32px) 0,
+      linear-gradient(90deg,#fff 38%,#adafff 0 50%,#fff 0 62%,#adafff 0);
+    background-size: 64px calc(2*64px/3);
+}
