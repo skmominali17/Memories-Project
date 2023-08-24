@@ -16,7 +16,7 @@ app.use(cors());
 app.use('/posts', postRoutes);
 
 // Building Connections
-const CONNECTION_URL = "mongodb+srv://mominalipubg:dash123@cluster0.pxelwvq.mongodb.net/?retryWrites=true&w=majority";
+const CONNECTION_URL = "mongodb+srv://mominalipubg:dash123@memoriescluster.hk8uz4a.mongodb.net/?retryWrites=true&w=majority";
 const port = process.env.PORT || 5000;
 
 mongoose.connect(CONNECTION_URL, {useNewUrlParser: true, useUnifiedTopology: true}).then(()=> app.listen(port, ()=> console.log(`Server running on port ${port}`))).catch((err) => console.log(err.message));
